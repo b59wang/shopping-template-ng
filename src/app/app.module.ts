@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {ItemCardComponent} from "./components/item-card.component";
+import {AngularMaterialModule} from "./angular-material.module";
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import {ItemCardComponent} from "./components/item-card.component";
     ItemCardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AngularMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
