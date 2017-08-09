@@ -5,6 +5,8 @@ import {Item} from "./model/item.model";
   selector: 'app-root',
   styleUrls: ['./app.component.css'],
   template: `
+    <nav-header></nav-header>
+    <br>
     <div>
       <item-card [item]="item"></item-card>
     </div>

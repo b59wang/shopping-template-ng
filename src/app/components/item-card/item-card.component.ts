@@ -1,5 +1,5 @@
 import {Component, Input} from "@angular/core";
-import {Item} from "../model/item.model";
+import {Item} from "../../model/item.model";
 
 @Component({
   selector: 'item-card',
