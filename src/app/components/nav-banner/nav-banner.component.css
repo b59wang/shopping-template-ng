@@ -1,0 +1,12 @@
+.nav-banner-header {
+  height: 150px;
+}
+
+.nav-banner-header > h2 {
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+  font-family: Lato, Helvetica, sans-serif;
+  padding-left: 100px;
+  padding-top: 35px;
+}
